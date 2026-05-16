@@ -17,3 +17,7 @@ snapshot-paths:
 models:
   airbnb_project:
     +materialized: view
+    dim:
+      +materialized: table
+    src:
+      +materialized: ephemeral

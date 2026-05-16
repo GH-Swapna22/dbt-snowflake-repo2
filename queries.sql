@@ -1,0 +1,3 @@
+drop view AIRBNB.DEV.SRC_HOSTS;
+drop view AIRBNB.DEV.SRC_LISTINGS;
+drop view AIRBNB.DEV.SRC_REVIEWS;

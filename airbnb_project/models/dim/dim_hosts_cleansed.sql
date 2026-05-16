@@ -1,3 +1,8 @@
+{{
+  config(
+    materialized = 'view'
+    )
+}}
 WITH result_set AS (
     SELECT
         *
