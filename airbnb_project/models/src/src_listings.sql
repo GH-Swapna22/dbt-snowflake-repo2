@@ -2,7 +2,7 @@ WITH result_set AS (
     SELECT
         *
     FROM
-        AIRBNB.RAW.RAW_LISTINGS
+         {{ source('airbnb', 'listings') }} --AIRBNB.RAW.RAW_LISTINGS
 )
 SELECT
     id AS listing_id,
