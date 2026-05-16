@@ -1,0 +1,19 @@
+name: airbnb_project
+version: 1.0.0
+config-version: 2
+profile: airbnb_project
+model-paths:
+  - models
+analysis-paths:
+  - analyses
+test-paths:
+  - tests
+seed-paths:
+  - seeds
+macro-paths:
+  - macros
+snapshot-paths:
+  - snapshots
+models:
+  airbnb_project:
+    +materialized: view

@@ -1,0 +1,10 @@
+airbnb_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: ADMIN_WH
+      database: AIRBNB
+      schema: DEV
+      threads: 8
