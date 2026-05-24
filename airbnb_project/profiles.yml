@@ -3,6 +3,8 @@ airbnb_project:
   outputs:
     dev:
       type: snowflake
+      account: gw99174
+      user: SFLEARNING
       role: ACCOUNTADMIN
       warehouse: ADMIN_WH
       database: AIRBNB
