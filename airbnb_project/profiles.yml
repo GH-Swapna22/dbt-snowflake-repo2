@@ -10,3 +10,21 @@ airbnb_project:
       database: AIRBNB
       schema: DEV
       threads: 8
+    QA:
+      type: snowflake
+      account: gw99174
+      user: SFLEARNING
+      role: ACCOUNTADMIN
+      warehouse: ADMIN_WH
+      database: AIRBNB
+      schema: quality_assurance
+      threads: 8
+    PROD:
+      type: snowflake
+      account: gw99174
+      user: SFLEARNING
+      role: ACCOUNTADMIN
+      warehouse: ADMIN_WH
+      database: AIRBNB
+      schema: production
+      threads: 8

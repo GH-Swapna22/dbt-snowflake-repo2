@@ -46,3 +46,15 @@ CREATE TABLE airbnb.dev.raw_customer (
     drop table AIRBNB.DEV.CUST_ACTIVE;
 drop table AIRBNB.DEV.SCD_RAW_CUSTOMER;
 drop table AIRBNB.DEV.RAW_CUSTOMER;
+
+
+
+update AIRBNB.RAW.RAW_LISTINGS
+set room_type = 'Private room'
+where ID = 7071;
+
+select * from AIRBNB.RAW.RAW_LISTINGS where ID = 7071;
+
+create schema quality_assurance;
+
+create schema production;
